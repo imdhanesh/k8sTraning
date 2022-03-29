@@ -7,7 +7,6 @@ spec:
   - name: nginx-dhanesh
     image: nginx
     ports:
-    - containerPort: 8080
+    - containerPort: 80
   - name: watcher-dhanesh
-    image: akharany/watcher
-    ports:
+    image: afakharany/watcher:latest
