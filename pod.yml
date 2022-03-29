@@ -11,4 +11,3 @@ spec:
   - name: watcher-dhanesh
     image: akharany/watcher
     ports:
-    - containerPort: 8081
